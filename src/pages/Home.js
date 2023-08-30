@@ -3,7 +3,13 @@ const Home = () => {
     <section>
       <div className="header">
         <div class="context">
-          <p>Hello </p>
+          <div class="reveal-container">
+            <div class="reveal-text">
+              <p>
+                Hello, <span class="wave">👋</span>
+              </p>
+            </div>
+          </div>
         </div>
 
         <div class="area">
@@ -24,5 +30,7 @@ const Home = () => {
     </section>
   );
 };
+
+
 
 export default Home;

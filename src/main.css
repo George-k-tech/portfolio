@@ -9,6 +9,7 @@
   text-decoration: none;
   list-style: none;
 }
+/* navbar css starts here */
 .navbar {
   position: fixed;
   top: 0;
@@ -53,11 +54,13 @@ input[type=checkbox] {
   font-size: 24px;
   user-select: none;
 }
+/* navbar css ends here */
 
 section {
   padding: 4.9rem 0%;
 }
 
+/* header section for home page starts here */
 .context {
   width: 100%;
   position: absolute;
@@ -178,7 +181,32 @@ section {
   animation-duration: 11s;
 }
 
+.reveal-container {
+  position: relative;
+  overflow: hidden;
+}
 
+.reveal-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3498db;
+  position: relative;
+  opacity: 0;
+  animation: revealDisappear 4s infinite;
+}
+
+.wave {
+  animation-name: wave-animation; 
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+/* header section for home page ends here */
+
+
+/* frames to animate the header section  starts here*/
 
 @keyframes animate {
 
@@ -195,6 +223,36 @@ section {
   }
 
 }
+/* frames to animate the header section  ends here*/
+
+/* frames to animate the text appearing and disapering starts here*/
+@keyframes revealDisappear {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  25%, 75% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* frames to animate the text appearing and disapering ends here*/
+
+/* frames to animate the hand wave starts here*/
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+ 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+ 20% { transform: rotate(-8.0deg) }
+ 30% { transform: rotate(14.0deg) }
+ 40% { transform: rotate(-4.0deg) }
+ 50% { transform: rotate(10.0deg) }
+ 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+100% { transform: rotate( 0.0deg) }
+}
+
+/* frames to animate the hand wave ends here*/
 
 @media (max-width: 768px) {
   .menu {
