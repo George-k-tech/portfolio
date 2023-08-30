@@ -7,14 +7,10 @@ const Navbar = () => {
       <div className="navbar-logo">
         <NavLink to="/">George Kariuki</NavLink>
       </div>
-      <div className="navbar-body">
-        <div className="navbar-body-work"> 
-          <NavLink to="/work">Recent Work</NavLink>
-        </div>
-        <div className="navbar-body-contact">
-          <NavLink to="/contacts">Contacts</NavLink>
-        </div>
-      </div>
+      <ul>
+        <li><NavLink to="/work">Recent Work</NavLink></li>
+        <li><NavLink to="/contact">Contacts</NavLink></li>
+      </ul>
     </div>
   );
 };
