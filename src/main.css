@@ -1,6 +1,6 @@
 :root {
   --grey: rgb(44, 43, 43);
-  --font: Verdana, Geneva, Tahoma, sans-serif;
+  --font:"Times New Roman", Times, serif;
 }
 * {
   margin: 0;
@@ -21,6 +21,7 @@
   padding: 20px;
   background-color: var(--grey);
   color: #fff;
+  font-family: var(--font);
 }
 .navbar-logo{
   font-size: 34px;
@@ -65,10 +66,10 @@ section {
   width: 100%;
   position: absolute;
   top:50vh;
-  
+  font-family: var(--font);
 }
 
-.context p{
+.context .p{
   text-align: center;
   color: #fff;
   font-size: 50px;
@@ -202,6 +203,14 @@ section {
   transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
   display: inline-block;
 }
+.name{
+  color: purple;
+}
+.div-button{
+  display: flex;
+  justify-content: center;
+}
+
 
 /* header section for home page ends here */
 

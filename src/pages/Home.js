@@ -5,9 +5,21 @@ const Home = () => {
         <div class="context">
           <div class="reveal-container">
             <div class="reveal-text">
-              <p>
+              <p className="p">
                 Hello, <span class="wave">👋</span>
               </p>
+            </div>
+          </div>
+          <div>
+            <p className="p">
+              My Name is <span className="name">George Mungai Kariuki,</span>
+            </p>
+            <p className="p">I'm a Fullstack Developer.</p>
+          </div>
+
+          <div className="div-button">
+            <div class="wrap">
+              <button class="button">Submit</button>
             </div>
           </div>
         </div>
@@ -30,7 +42,5 @@ const Home = () => {
     </section>
   );
 };
-
-
 
 export default Home;
