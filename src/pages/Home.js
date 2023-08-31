@@ -34,26 +34,44 @@ const Home = () => {
       </div>
 
       <div className="about">
-
         <div className="about-head">
           <p>About</p>
         </div>
+
         <div className="about-icons">
-            <div>
-
+          <div className="icon">
+            <img src="fast.jpeg"></img>
+            <div className="info">
+            <p>Fast</p>
+            <span>i work on them to be fast</span>
             </div>
+          </div>
 
-            <div>
-
+          <div className="icon">
+            <img src="responisive.jpeg"></img>
+            <div className="info">
+            <p>Responsive</p>
+            <span>resposnsive websites are the best</span>
             </div>
+           
+          </div>
 
-            <div>
-
+          <div className="icon">
+            <img src="dynamic.jpeg"></img>
+            <div className="info">
+            <p>Dynamic websites</p>
+            <span>Websites are meant to be interactive</span>
             </div>
+           
+          </div>
 
-            <div>
-              
+          <div className="icon">
+            <img src="easy.jpeg"></img>
+            <div className="info">
+            <p>Easy to use</p>
+            <span>webistes should be easy to use</span>
             </div>
+          </div>
         </div>
       </div>
     </section>

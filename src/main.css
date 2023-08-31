@@ -216,7 +216,38 @@ section {
 .button:hover{
   background-color: #3498db;
 }
+.about-icons{
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 
+.about-icons .icon{
+  background: #fff;
+  border: .1rem solid rgba(0, 0, 0, .1);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex: 1 1 16rem;
+}
+
+.about-icons .icon img{
+  height: 7rem;
+  margin-right: 1rem;
+}
+
+.about-icons .icon p{
+  color: #333;
+  padding-bottom: .5rem;
+  font-size: 1.5rem;
+}
+.about-icons .icon span{
+  color: #555;
+  font-size: 1.5rem;
+}
 /* header section for home page ends here */
 
 
