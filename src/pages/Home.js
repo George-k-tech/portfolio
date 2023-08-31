@@ -18,9 +18,7 @@ const Home = () => {
           </div>
 
           <div className="div-button">
-            <div class="wrap">
-              <button class="button">Submit</button>
-            </div>
+            
           </div>
         </div>
 
