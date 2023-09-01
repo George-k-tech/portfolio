@@ -1,59 +1,87 @@
 :root {
   --grey: rgb(44, 43, 43);
-  --font:"Times New Roman", Times, serif;
+  --font: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:var(--font);
+  outline: none;
+  border: none;
   text-decoration: none;
+  text-transform: capitalize;
   list-style: none;
+  transition: .2s linear;
 }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
 /* navbar css starts here */
+
+
 .navbar {
   position: fixed;
   top: 0;
-  right: 0;
   left: 0;
+  right: 0;
+  background: 2rem 9%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1rem rgba(0.0, 0, .1);
   background-color: var(--grey);
+}
+
+.nav-links a {
   color: #fff;
-  font-family: var(--font);
-  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  font-size: 2rem;
+  padding: 0 1.5rem;
 }
-.navbar-logo{
-  font-size: 34px;
-  color: rgb(63, 17, 63);
+
+/* LOGO */
+.logo {
+  font-size: 3rem;
+  font-weight: bolder;
 }
-.navbar-body{
-  width: 30%;
-}
-.a{
-  color:rgb(146, 13, 146);
-}
-.menu{
+
+/* NAVBAR MENU */
+.menu {
   display: flex;
-  gap: 3em;
+  gap: 1em;
   font-size: 18px;
 }
-.menu li:hover{
-  background-color:white;
+
+.menu li:hover {
+  background-color: rgb(168, 161, 161);
   border-radius: 5px;
   transition: 0.3s ease;
 }
-.menu li{
+
+.menu li {
   padding: 5px 14px;
 }
+
 
 input[type=checkbox] {
   display: none;
 } 
+
+/* HAMBURGER MENU */
 .hamburger {
   display: none;
-  font-size: 24px;
+  font-size: 3rem;
+  border-radius: .5rem;
+  padding: .5rem 1.5rem;
+  cursor: pointer;
+  border: .1rem solid rgba(0, 0, 0, .3);
   user-select: none;
 }
 /* navbar css ends here */
@@ -61,7 +89,9 @@ input[type=checkbox] {
 section {
   padding: 4.9rem 0%;
 }
+
 .header
+
 /* header section for home page starts here */
 .context {
   width: 100%;
@@ -70,21 +100,21 @@ section {
   font-family: var(--font);
 }
 
-.context .p{
+.context .p {
   text-align: center;
   color: #fff;
   font-size: 50px;
 }
 
 
-.area{
-  background: var(--grey);  
-  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+.area {
+  background: var(--grey);
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
   width: 100%;
-  height:50vh;
+  height: 50vh;
 }
 
-.circles{
+.circles {
   position: absolute;
   top: 0;
   left: 0;
@@ -93,7 +123,7 @@ section {
   overflow: hidden;
 }
 
-.circles li{
+.circles li {
   position: absolute;
   display: block;
   list-style: none;
@@ -102,10 +132,10 @@ section {
   background: rgba(255, 255, 255, 0.2);
   animation: animate 25s linear infinite;
   bottom: -150px;
-  
+
 }
 
-.circles li:nth-child(1){
+.circles li:nth-child(1) {
   left: 25%;
   width: 80px;
   height: 80px;
@@ -113,7 +143,7 @@ section {
 }
 
 
-.circles li:nth-child(2){
+.circles li:nth-child(2) {
   left: 10%;
   width: 20px;
   height: 20px;
@@ -121,14 +151,14 @@ section {
   animation-duration: 12s;
 }
 
-.circles li:nth-child(3){
+.circles li:nth-child(3) {
   left: 70%;
   width: 20px;
   height: 20px;
   animation-delay: 4s;
 }
 
-.circles li:nth-child(4){
+.circles li:nth-child(4) {
   left: 40%;
   width: 60px;
   height: 60px;
@@ -136,28 +166,28 @@ section {
   animation-duration: 18s;
 }
 
-.circles li:nth-child(5){
+.circles li:nth-child(5) {
   left: 65%;
   width: 20px;
   height: 20px;
   animation-delay: 0s;
 }
 
-.circles li:nth-child(6){
+.circles li:nth-child(6) {
   left: 75%;
   width: 110px;
   height: 110px;
   animation-delay: 3s;
 }
 
-.circles li:nth-child(7){
+.circles li:nth-child(7) {
   left: 35%;
   width: 150px;
   height: 150px;
   animation-delay: 7s;
 }
 
-.circles li:nth-child(8){
+.circles li:nth-child(8) {
   left: 50%;
   width: 25px;
   height: 25px;
@@ -165,7 +195,7 @@ section {
   animation-duration: 45s;
 }
 
-.circles li:nth-child(9){
+.circles li:nth-child(9) {
   left: 20%;
   width: 15px;
   height: 15px;
@@ -173,7 +203,7 @@ section {
   animation-duration: 35s;
 }
 
-.circles li:nth-child(10){
+.circles li:nth-child(10) {
   left: 85%;
   width: 150px;
   height: 150px;
@@ -196,27 +226,57 @@ section {
 }
 
 .wave {
-  animation-name: wave-animation; 
-  animation-duration: 2.5s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  /* Never stop waving :) */
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
   display: inline-block;
 }
-.name{
+
+.name {
   color: purple;
 }
-.div-button{
+
+.about {
+  font-family: var(--font);
+}
+
+.about-heading {
+  text-align: center;
+  font-size: 4rem;
+  padding: 1rem;
+  margin: 0.1rem 0;
+  color: #333;
+  background-color: rgba(240, 46, 170, 0.6);
+}
+
+.about .row {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
 }
-.button{
-  padding: 10px 16px;
-  background-color: red;
+
+.about .row .image-container {
+  flex: 1 1 40rem;
+  position: relative;
 }
-.button:hover{
-  background-color: #3498db;
+
+.about .row .image-container img {
+  width: 100%;
+  border: 1.5rem solid #fff;
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem rgba(0.0, 0, .1);
+  height: 100%;
+  object-fit: cover;
 }
-.about-icons{
+
+.about-icons {
   background: #eee;
   display: flex;
   flex-wrap: wrap;
@@ -225,7 +285,7 @@ section {
   padding-bottom: 5rem;
 }
 
-.about-icons .icon{
+.about-icons .icon {
   background: #fff;
   border: .1rem solid rgba(0, 0, 0, .1);
   padding: 2rem;
@@ -234,20 +294,22 @@ section {
   flex: 1 1 16rem;
 }
 
-.about-icons .icon img{
+.about-icons .icon img {
   height: 7rem;
   margin-right: 1rem;
 }
 
-.about-icons .icon p{
+.about-icons .icon p {
   color: #333;
   padding-bottom: .5rem;
   font-size: 1.5rem;
 }
-.about-icons .icon span{
+
+.about-icons .icon span {
   color: #555;
   font-size: .8rem;
 }
+
 /* header section for home page ends here */
 
 
@@ -255,28 +317,33 @@ section {
 
 @keyframes animate {
 
-  0%{
-      transform: translateY(0) rotate(0deg);
-      opacity: 1;
-      border-radius: 0;
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
   }
 
-  100%{
-      transform: translateY(-1000px) rotate(720deg);
-      opacity: 0;
-      border-radius: 50%;
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
   }
 
 }
+
 /* frames to animate the header section  ends here*/
 
 /* frames to animate the text appearing and disapering starts here*/
 @keyframes revealDisappear {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0;
     transform: translateY(100%);
   }
-  25%, 75% {
+
+  25%,
+  75% {
     opacity: 1;
     transform: translateY(0);
   }
@@ -287,37 +354,77 @@ section {
 /* frames to animate the hand wave starts here*/
 
 @keyframes wave-animation {
-  0% { transform: rotate( 0.0deg) }
- 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
- 20% { transform: rotate(-8.0deg) }
- 30% { transform: rotate(14.0deg) }
- 40% { transform: rotate(-4.0deg) }
- 50% { transform: rotate(10.0deg) }
- 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-100% { transform: rotate( 0.0deg) }
+  0% {
+    transform: rotate(0.0deg)
+  }
+
+  10% {
+    transform: rotate(14.0deg)
+  }
+
+  /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8.0deg)
+  }
+
+  30% {
+    transform: rotate(14.0deg)
+  }
+
+  40% {
+    transform: rotate(-4.0deg)
+  }
+
+  50% {
+    transform: rotate(10.0deg)
+  }
+
+  60% {
+    transform: rotate(0.0deg)
+  }
+
+  /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0.0deg)
+  }
 }
 
 /* frames to animate the hand wave ends here*/
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  header {
+    padding: 2rem;
+  }
+}
 
 @media (max-width: 768px) {
   .menu {
      display:none;
      position: absolute;
-     background-color:var(--grey);
+     border-top: .1rem solid rgba(0.0, 0, .1);
+     background-color:var(--grey); 
      right: 0;
      left: 0;
+     top: 100%;
      text-align: center;
-     padding: 16px 0;
+     /* padding: 16px 0; */
    }
  
    .menu li:hover {
      display: inline-block;
-     background-color:#4c9e9e;
+     background-color:rgb(168, 161, 161);
      transition: 0.3s ease;
    }
  
-   .menu li + li {
-     margin-top: 12px;
+   .menu li{
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: .1rem solid rgba(0.0, 0, .1);
+    display: block;
    }
  
    input[type=checkbox]:checked ~ .menu {
@@ -327,4 +434,5 @@ section {
    .hamburger {
      display: block;
    }
-  } 
+ 
+ }

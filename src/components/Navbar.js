@@ -3,32 +3,25 @@ import { NavLink } from "react-router-dom";
 import "../main.css";
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <div className="navbar-logo">
-        <NavLink to="/" className="a">George Kariuki</NavLink>
-      </div>
+    <nav class="navbar">
+    
+    <div class="logo">George Mungai.</div>
 
-      <div className="navbar-body">
-        <ul className="navlinks">
-          <input type="checkbox" id="checkbox-toggle"></input>
-          <label htmlFor="checkbox-toggle" className="hamburger">
-            &#9776;
-          </label>
-          <div className="menu">
-            <li>
-              <NavLink to="/work" className="a">
-                Recent Work
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/contacts" className="a">
-                Contacts
-              </NavLink>
-            </li>
-          </div>
-        </ul>
+    <ul class="nav-links">
+
+     
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+     
+      <div class="menu">
+
+        <li><a href="/">Recent Works</a></li>
+        <li><a href="/">Contacts</a></li>
+
       </div>
-    </div>
+    </ul>
+  </nav>
   );
 };
 

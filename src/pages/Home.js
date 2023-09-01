@@ -1,7 +1,8 @@
 const Home = () => {
   return (
-    <section>
-      <div className="header">
+     <>
+
+      {/*  <div className="header">
         <div class="context">
           <div class="reveal-container">
             <div class="reveal-text">
@@ -31,14 +32,28 @@ const Home = () => {
             <li></li>
           </ul>
         </div>
-      </div>
+      </div> 
 
       <div className="about">
-        <div className="about-head">
-          <p>About</p>
-        </div>
+          <p className="about-heading">About</p>
+        <div className="row">
+            <div className="image-container">
+              <img src="responisive.jpeg" alt="my pic"></img>
+              <h3>George Mungai Kariuki</h3>
+            </div>
 
-        <div className="about-icons">
+            <div className="about-content">
+                <h3>My stacks</h3>
+
+                <p>Flutter</p>
+                <p>Laravel</p>
+                <p>React</p>
+                <p>another</p>
+            </div>
+        </div>
+      </div>
+
+      <div className="about-icons">
           <div className="icon">
             <img src="fast.jpeg" alt="fast"></img>
             <div className="info">
@@ -72,9 +87,8 @@ const Home = () => {
             <span>webistes should be easy to use</span>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </div> */}
+    </> 
   );
 };
 
