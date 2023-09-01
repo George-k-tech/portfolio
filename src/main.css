@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:var(--font);
+  font-family: var(--font);
   outline: none;
   border: none;
   text-decoration: none;
@@ -21,6 +21,12 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
   overflow-x: hidden;
+}
+
+
+.section {
+  /*   margin-top: 2rem; */
+  padding: 2rem 9%;
 }
 
 /* navbar css starts here */
@@ -72,7 +78,7 @@ html {
 
 input[type=checkbox] {
   display: none;
-} 
+}
 
 /* HAMBURGER MENU */
 .hamburger {
@@ -84,6 +90,7 @@ input[type=checkbox] {
   border: .1rem solid rgba(0, 0, 0, .3);
   user-select: none;
 }
+
 /* navbar css ends here */
 
 section {
@@ -236,24 +243,21 @@ section {
   display: inline-block;
 }
 
-.name {
-  color: purple;
-}
-
-.about {
-  font-family: var(--font);
-}
-
-.about-heading {
+/* about section starts here */
+.heading {
   text-align: center;
   font-size: 4rem;
-  padding: 1rem;
-  margin: 0.1rem 0;
   color: #333;
-  background-color: rgba(240, 46, 170, 0.6);
+  padding: 1rem;
+  margin: 2rem 0;
+  background: rgba(255, 51, 153, .05);
 }
 
-.about .row {
+.heading span{
+  color: var(--grey);
+}
+
+.about .row{
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -262,12 +266,11 @@ section {
   padding-bottom: 3rem;
 }
 
-.about .row .image-container {
+.about .row .image-container{
   flex: 1 1 40rem;
   position: relative;
 }
-
-.about .row .image-container img {
+.about .row .image-container img{
   width: 100%;
   border: 1.5rem solid #fff;
   border-radius: .5rem;
@@ -275,6 +278,31 @@ section {
   height: 100%;
   object-fit: cover;
 }
+.about .row .image-container h3 {
+  position: absolute;
+  top: 0%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  background: #fff;
+  width: 100%;
+  padding: 1rem 2rem;
+  text-align: center;
+  /* mix-blend-mode: screen; */
+}
+.about .row .content {
+  flex: 1 1 40rem;
+}
+.about .row .content h3 {
+  font-size: 3rem;
+  color: #333;
+}
+.about .row .content p {
+  font-size: 1.5rem;
+  color: #999;
+  padding-top: 1rem;
+  line-height: 1.5;
+}
+/* about section ends here */
 
 .about-icons {
   background: #eee;
@@ -403,36 +431,36 @@ section {
 
 @media (max-width: 768px) {
   .menu {
-     display:none;
-     position: absolute;
-     border-top: .1rem solid rgba(0.0, 0, .1);
-     background-color:var(--grey); 
-     right: 0;
-     left: 0;
-     top: 100%;
-     text-align: center;
-     /* padding: 16px 0; */
-   }
- 
-   .menu li:hover {
-     display: inline-block;
-     background-color:rgb(168, 161, 161);
-     transition: 0.3s ease;
-   }
- 
-   .menu li{
+    display: none;
+    position: absolute;
+    border-top: .1rem solid rgba(0.0, 0, .1);
+    background-color: var(--grey);
+    right: 0;
+    left: 0;
+    top: 100%;
+    text-align: center;
+    /* padding: 16px 0; */
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: rgb(168, 161, 161);
+    transition: 0.3s ease;
+  }
+
+  .menu li {
     margin: 1.5rem;
     padding: 1.5rem;
     border: .1rem solid rgba(0.0, 0, .1);
     display: block;
-   }
- 
-   input[type=checkbox]:checked ~ .menu {
-     display: block;
-   }
- 
-   .hamburger {
-     display: block;
-   }
- 
- }
+  }
+
+  input[type=checkbox]:checked~.menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+}

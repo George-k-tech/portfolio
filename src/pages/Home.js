@@ -1,7 +1,27 @@
 const Home = () => {
   return (
-     <>
+    <>
+      <section className="about section" id="about">
+        <p className="heading">
+          {" "}
+          <span> About</span> Me
+        </p>
+        <div className="row">
 
+          <div className="image-container">
+            <img src="responisive.jpeg" alt="my pic"></img>
+            <h3>George Mungai Kariuki</h3>
+          </div>
+          <div className="content">
+            <h3>My Stacks</h3>
+            <p>Flutter</p>
+            <p>React</p>
+            <p>Laravel</p>
+          </div>
+        </div>
+      </section>
+
+      <section></section>
       {/*  <div className="header">
         <div class="context">
           <div class="reveal-container">
@@ -88,7 +108,7 @@ const Home = () => {
             </div>
           </div>
         </div> */}
-    </> 
+    </>
   );
 };
 
