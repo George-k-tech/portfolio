@@ -348,6 +348,32 @@ section {
   padding-top: 1rem;
   line-height: 1.5;
 }
+
+.about .row .content .content-other{
+  padding:0 10px;
+}
+.about .row .content .content-other .other{
+  width: 100%;
+  display: flex;
+}
+
+.about .row .content .content-other .other .logo-icon{
+  border: .1rem solid rgba(0, 0, 0, .1);
+  padding: 2rem;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 25rem;
+  background: #fff;
+}
+
+.about .row .content .content-other .other .logo-icon img{
+  height: 10rem;
+  width: 10rem;
+  margin-right: 2rem;
+}
+
 /* about section ends here */
 
 .about-icons {

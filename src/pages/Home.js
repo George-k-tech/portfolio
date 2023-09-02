@@ -38,7 +38,6 @@ const Home = () => {
               </div>
 
               <div className="content-language">
-
                 <div className="logo-icon">
                   <img src="php.png" alt="Laravel"></img>
                   <div className="logo-icon-info">
@@ -60,6 +59,25 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="content-other">
+                <div className="other">
+
+                <div className="logo-icon">
+                  <img src="dart.jpg" alt="Laravel"></img>
+                  <div className="logo-icon-info">
+                    <p>Dart</p>
+                  </div>
+                </div>
+
+                <div className="logo-icon">
+                  <img src="css.png" alt="Laravel"></img>
+                  <div className="logo-icon-info">
+                    <p>Dart</p>
+                  </div>
+                </div>
+                     
+                </div>
             </div>
           </div>
         </div>
