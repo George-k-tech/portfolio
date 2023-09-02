@@ -7,16 +7,60 @@ const Home = () => {
           <span> About</span> Me
         </p>
         <div className="row">
-
           <div className="image-container">
-            <img src="responisive.jpeg" alt="my pic"></img>
+            <img src="me.jpg" alt="my pic"></img>
             <h3>George Mungai Kariuki</h3>
           </div>
           <div className="content">
             <h3>My Stacks</h3>
-            <p>Flutter</p>
-            <p>React</p>
-            <p>Laravel</p>
+            <div className="content-main">
+              <div className="content-frame">
+                <div className="logo-icon">
+                  <img src="laravel.png" alt="Laravel"></img>
+                  <div className="logo-icon-info">
+                    <p>Laravel</p>
+                  </div>
+                </div>
+
+                <div className="logo-icon">
+                  <img src="react.jpg" alt="Laravel"></img>
+                  <div className="logo-icon-info">
+                    <p>React</p>
+                  </div>
+                </div>
+
+                <div className="logo-icon">
+                  <img src="flutter.jpeg" alt="Laravel"></img>
+                  <div className="logo-icon-info">
+                    <p>Flutter</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="content-language">
+
+                <div className="logo-icon">
+                  <img src="php.png" alt="Laravel"></img>
+                  <div className="logo-icon-info">
+                    <p>PHP</p>
+                  </div>
+                </div>
+
+                <div className="logo-icon">
+                  <img src="javascript.png" alt="Laravel"></img>
+                  <div className="logo-icon-info">
+                    <p>Javascript</p>
+                  </div>
+                </div>
+
+                <div className="logo-icon">
+                  <img src="dart.jpg" alt="Laravel"></img>
+                  <div className="logo-icon-info">
+                    <p>Dart</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

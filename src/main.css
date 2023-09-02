@@ -259,7 +259,8 @@ section {
 
 .about .row{
   display: flex;
-  align-items: center;
+ /*  align-items: center; */
+
   gap: 2rem;
   flex-wrap: wrap;
   padding: 2rem 0;
@@ -291,10 +292,55 @@ section {
 }
 .about .row .content {
   flex: 1 1 40rem;
+  /* background-color: blue; */
 }
 .about .row .content h3 {
   font-size: 3rem;
   color: #333;
+  display: flex;
+  justify-content: center;
+}
+.about .row .content .content-main{
+  display: flex;
+  padding: 10px;
+}
+.about .row .content .content-frame{
+  width: 50%;
+}
+
+.about .row .content .content-frame .logo-icon{
+  border: .1rem solid rgba(0, 0, 0, .1);
+  padding: 2rem;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 25rem;
+  background: #fff;
+}
+.about .row .content .content-frame .logo-icon img{
+  height: 10rem;
+  width: 10rem;
+  margin-right: 2rem;
+}
+.about .row .content .content-language{
+  width: 50%;
+  background-color: orange;
+}
+.about .row .content .content-language .logo-icon{
+  border: .1rem solid rgba(0, 0, 0, .1);
+  padding: 2rem;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 25rem;
+  background: #fff;
+}
+.about .row .content .content-language .logo-icon img{
+  height: 10rem;
+  width: 10rem;
+  margin-right: 2rem;
 }
 .about .row .content p {
   font-size: 1.5rem;
