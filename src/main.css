@@ -376,7 +376,9 @@ section {
 
 /* about section ends here */
 
-.about-icons {
+/* icons section starts here */
+
+.icons-container {
   background: #eee;
   display: flex;
   flex-wrap: wrap;
@@ -385,30 +387,33 @@ section {
   padding-bottom: 5rem;
 }
 
-.about-icons .icon {
+.icons-container .icon {
   background: #fff;
   border: .1rem solid rgba(0, 0, 0, .1);
   padding: 2rem;
   display: flex;
   align-items: center;
-  flex: 1 1 16rem;
+  flex: 1 1 25rem;
 }
 
-.about-icons .icon img {
-  height: 7rem;
-  margin-right: 1rem;
+.icons-container .icon img {
+  height: 5rem;
+  margin-right: 2rem;
 }
 
-.about-icons .icon p {
+.icons-container .icon h3 {
   color: #333;
   padding-bottom: .5rem;
   font-size: 1.5rem;
 }
 
-.about-icons .icon span {
+.icons-container .icon span {
   color: #555;
-  font-size: .8rem;
+  font-size: 1.5rem;
+  text-transform: none;
 }
+
+/* icons section ends here */
 
 /* header section for home page ends here */
 

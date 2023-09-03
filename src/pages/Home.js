@@ -3,7 +3,6 @@ const Home = () => {
     <>
       <section className="about section" id="about">
         <p className="heading">
-          {" "}
           <span> About</span> Me
         </p>
         <div className="row">
@@ -64,16 +63,16 @@ const Home = () => {
                 <div className="other">
 
                 <div className="logo-icon">
-                  <img src="dart.jpg" alt="Laravel"></img>
+                  <img src="html.png" alt="Laravel"></img>
                   <div className="logo-icon-info">
-                    <p>Dart</p>
+                    <p>HTML</p>
                   </div>
                 </div>
 
                 <div className="logo-icon">
                   <img src="css.png" alt="Laravel"></img>
                   <div className="logo-icon-info">
-                    <p>Dart</p>
+                    <p>CSS</p>
                   </div>
                 </div>
                      
@@ -81,6 +80,41 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="icons-container section">
+      <div class="icon">
+            <img src="easy.jpeg" alt="easy"></img>
+            <div class="info">
+                <h3>Easy Interactions</h3>
+                <span>Easy human interactions with the websites,my first priority.</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="fast.jpeg" alt="fast"></img>
+            <div class="info">
+                <h3>Fast Reloads</h3>
+                <span>Fast load times and lagfree interaction,my second priority.</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="responisive.jpeg" alt="responsive"></img>
+            <div class="info">
+                <h3>Responsive</h3>
+                <span> My layouts will work on any device, big or small.</span>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="dynamic.jpeg" alt="dynamic"></img>
+            <div class="info">
+                <h3>Dynamic</h3>
+                <span>Websites don't have to be static, I love making pages come to life.</span>
+            </div>
+        </div>
+
       </section>
 
       <section></section>
