@@ -1,9 +1,60 @@
 const Home = () => {
   return (
     <>
+      <p className="heading">
+        <span> About</span>
+      </p>
+
+      <section className="icons-container section">
+        <p className="heading-web">
+          <span>My Web-apps</span>
+        </p>
+        <div className="icons-container-container">
+          <div class="icon">
+            <img src="easy.jpeg" alt="easy"></img>
+            <div class="info">
+              <h3>Easy Interactions</h3>
+              <span>
+                Easy human interactions with the web-application,my first
+                priority.
+              </span>
+            </div>
+          </div>
+
+          <div class="icon">
+            <img src="fast.jpeg" alt="fast"></img>
+            <div class="info">
+              <h3>Fast Reloads</h3>
+              <span>
+                Fast load times and lag free interaction,my second priority.
+              </span>
+            </div>
+          </div>
+
+          <div class="icon">
+            <img src="responisive.jpeg" alt="responsive"></img>
+            <div class="info">
+              <h3>Responsive</h3>
+              <span> My layouts will work on any device, big or small.</span>
+            </div>
+          </div>
+
+          <div class="icon">
+            <img src="dynamic.jpeg" alt="dynamic"></img>
+            <div class="info">
+              <h3>Dynamic</h3>
+              <span>
+                Websites don't have to be static, I love making pages come to
+                life.
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="about section" id="about">
-        <p className="heading">
-          <span> About</span> Me
+        <p className="heading-me">
+          <span>Me</span>
         </p>
         <div className="row">
           <div className="image-container">
@@ -60,8 +111,7 @@ const Home = () => {
               </div>
             </div>
             <div className="content-other">
-                <div className="other">
-
+              <div className="other">
                 <div className="logo-icon">
                   <img src="html.png" alt="Laravel"></img>
                   <div className="logo-icon-info">
@@ -75,46 +125,10 @@ const Home = () => {
                     <p>CSS</p>
                   </div>
                 </div>
-                     
-                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="icons-container section">
-      <div class="icon">
-            <img src="easy.jpeg" alt="easy"></img>
-            <div class="info">
-                <h3>Easy Interactions</h3>
-                <span>Easy human interactions with the websites,my first priority.</span>
-            </div>
-        </div>
-
-        <div class="icon">
-            <img src="fast.jpeg" alt="fast"></img>
-            <div class="info">
-                <h3>Fast Reloads</h3>
-                <span>Fast load times and lagfree interaction,my second priority.</span>
-            </div>
-        </div>
-
-        <div class="icon">
-            <img src="responisive.jpeg" alt="responsive"></img>
-            <div class="info">
-                <h3>Responsive</h3>
-                <span> My layouts will work on any device, big or small.</span>
-            </div>
-        </div>
-
-        <div class="icon">
-            <img src="dynamic.jpeg" alt="dynamic"></img>
-            <div class="info">
-                <h3>Dynamic</h3>
-                <span>Websites don't have to be static, I love making pages come to life.</span>
-            </div>
-        </div>
-
       </section>
 
       <section></section>
