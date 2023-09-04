@@ -10,9 +10,9 @@ const Home = () => {
           <span>My Web-apps</span>
         </p>
         <div className="icons-container-container">
-          <div class="icon">
+          <div className="icon">
             <img src="easy.jpeg" alt="easy"></img>
-            <div class="info">
+            <div className="info">
               <h3>Easy Interactions</h3>
               <span>
                 Easy human interactions with the web-application,my first
@@ -21,9 +21,9 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="icon">
+          <div className="icon">
             <img src="fast.jpeg" alt="fast"></img>
-            <div class="info">
+            <div className="info">
               <h3>Fast Reloads</h3>
               <span>
                 Fast load times and lag free interaction,my second priority.
@@ -31,17 +31,17 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="icon">
+          <div className="icon">
             <img src="responisive.jpeg" alt="responsive"></img>
-            <div class="info">
+            <div className="info">
               <h3>Responsive</h3>
               <span> My layouts will work on any device, big or small.</span>
             </div>
           </div>
 
-          <div class="icon">
+          <div className="icon">
             <img src="dynamic.jpeg" alt="dynamic"></img>
-            <div class="info">
+            <div className="info">
               <h3>Dynamic</h3>
               <span>
                 Websites don't have to be static, I love making pages come to
@@ -63,81 +63,61 @@ const Home = () => {
           </div>
           <div className="content">
             <h3>My Stacks</h3>
-            <div className="content-main">
-              <div className="content-frame">
-                <div className="logo-icon">
-                  <img src="laravel.png" alt="Laravel"></img>
-                  <div className="logo-icon-info">
-                    <p>Laravel</p>
-                  </div>
+            
+              <div className="content-left">
+
+              <div className="logo-icon">
+                <img src="laravel.png" alt="laravel"></img>
+                  <p>Laravel</p>
                 </div>
 
                 <div className="logo-icon">
-                  <img src="react.jpg" alt="Laravel"></img>
-                  <div className="logo-icon-info">
-                    <p>React</p>
-                  </div>
+                <img src="react.jpg" alt="react"></img>
+                  <p>React</p>
                 </div>
 
                 <div className="logo-icon">
-                  <img src="flutter.jpeg" alt="Laravel"></img>
-                  <div className="logo-icon-info">
-                    <p>Flutter</p>
-                  </div>
+                <img src="flutter.jpeg" alt="flutter"></img>
+                  <p>Flutter</p>
+                </div>
+
+              </div>
+
+              <div className="content-right">
+
+                <div className="logo-icon">
+                <img src="php.png" alt="php"></img>
+                  <p>PHP</p>
+                </div>
+
+                <div className="logo-icon">
+                <img src="javascript.png" alt="javascript"></img>
+                  <p>Javascript</p>
+                </div>
+
+                <div className="logo-icon">
+                <img src="dart.jpg" alt="dart"></img>
+                  <p>Dart</p>
                 </div>
               </div>
 
-              <div className="content-language">
-                <div className="logo-icon">
-                  <img src="php.png" alt="Laravel"></img>
-                  <div className="logo-icon-info">
-                    <p>PHP</p>
-                  </div>
-                </div>
-
-                <div className="logo-icon">
-                  <img src="javascript.png" alt="Laravel"></img>
-                  <div className="logo-icon-info">
-                    <p>Javascript</p>
-                  </div>
-                </div>
-
-                <div className="logo-icon">
-                  <img src="dart.jpg" alt="Laravel"></img>
-                  <div className="logo-icon-info">
-                    <p>Dart</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="content-other">
-              <div className="other">
-                <div className="logo-icon">
-                  <img src="html.png" alt="Laravel"></img>
-                  <div className="logo-icon-info">
-                    <p>HTML</p>
-                  </div>
-                </div>
-
-                <div className="logo-icon">
-                  <img src="css.png" alt="Laravel"></img>
-                  <div className="logo-icon-info">
-                    <p>CSS</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
 
-      <section></section>
+      <p className="heading">
+        <span> About</span>
+      </p>
+
+      <section>
+
+      </section>
       {/*  <div className="header">
-        <div class="context">
-          <div class="reveal-container">
-            <div class="reveal-text">
+        <div className="context">
+          <div className="reveal-container">
+            <div className="reveal-text">
               <p className="p">
-                Hello, <span class="wave">👋</span>
+                Hello, <span className="wave">👋</span>
               </p>
             </div>
           </div>
@@ -148,8 +128,8 @@ const Home = () => {
             <p className="p">I'm a Fullstack Developer.</p>
           </div>
         </div>
-        <div class="area">
-          <ul class="circles">
+        <div className="area">
+          <ul className="circles">
             <li></li>
             <li></li>
             <li></li>

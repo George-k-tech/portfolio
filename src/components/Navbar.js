@@ -3,18 +3,18 @@ import { NavLink } from "react-router-dom";
 import "../main.css";
 const Navbar = () => {
   return (
-    <nav class="navbar">
+    <nav className="navbar">
     
-    <div class="logo">George Mungai.</div>
+    <div className="logo">George Mungai.</div>
 
-    <ul class="nav-links">
+    <ul className="nav-links">
 
      
       <input type="checkbox" id="checkbox_toggle" />
-      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <label htmlFor="checkbox_toggle" className="hamburger">&#9776;</label>
 
      
-      <div class="menu">
+      <div className="menu">
 
         <li><a href="/">Recent Works</a></li>
         <li><a href="/">Contacts</a></li>
