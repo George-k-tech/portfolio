@@ -372,7 +372,7 @@ section {
 }
 
 .about .row .content .content-left{
-  border: .1rem solid rgba(0, 0, 0, .1);
+ /*  border: .1rem solid rgba(0, 0, 0, .1); */
   padding: 2rem .5rem;
   align-items: center;
   display: block;
@@ -392,7 +392,7 @@ section {
 }
 
 .about .row .content .content-right{
-  border: .1rem solid rgba(0, 0, 0, .1);
+ /*  border: .1rem solid rgba(0, 0, 0, .1); */
   padding: 2rem .5rem;
   align-items: center;
   flex: 1 1 25rem;
