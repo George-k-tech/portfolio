@@ -63,44 +63,40 @@ const Home = () => {
           </div>
           <div className="content">
             <h3>My Stacks</h3>
-            
-              <div className="content-left">
 
+            <div className="content-left">
               <div className="logo-icon">
                 <img src="laravel.png" alt="laravel"></img>
-                  <p>Laravel</p>
-                </div>
+                <p>Laravel</p>
+              </div>
 
-                <div className="logo-icon">
+              <div className="logo-icon">
                 <img src="react.jpg" alt="react"></img>
-                  <p>React</p>
-                </div>
+                <p>React</p>
+              </div>
 
-                <div className="logo-icon">
+              <div className="logo-icon">
                 <img src="flutter.jpeg" alt="flutter"></img>
-                  <p>Flutter</p>
-                </div>
-
+                <p>Flutter</p>
               </div>
+            </div>
 
-              <div className="content-right">
-
-                <div className="logo-icon">
+            <div className="content-right">
+              <div className="logo-icon">
                 <img src="php.png" alt="php"></img>
-                  <p>PHP</p>
-                </div>
-
-                <div className="logo-icon">
-                <img src="javascript.png" alt="javascript"></img>
-                  <p>Javascript</p>
-                </div>
-
-                <div className="logo-icon">
-                <img src="dart.jpg" alt="dart"></img>
-                  <p>Dart</p>
-                </div>
+                <p>PHP</p>
               </div>
 
+              <div className="logo-icon">
+                <img src="javascript.png" alt="javascript"></img>
+                <p>Javascript</p>
+              </div>
+
+              <div className="logo-icon">
+                <img src="dart.jpg" alt="dart"></img>
+                <p>Dart</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -109,8 +105,82 @@ const Home = () => {
         <span>Projects</span>
       </p>
 
-      <section>
+      <section className="modal section">
+        <div className="modal-section">
 
+          <div className="modals">
+            <div className="modal">
+              <a href="#modal">
+                <img src="php.png" alt="headphones"></img>
+              </a>
+            </div>
+            <div id="modal">
+              <div class="modal__window">
+                <a class="modal__close" href="#close">
+                  X
+                </a>
+                <img src="php.png"></img>
+                <h2>Please to meet you!</h2>
+                <p>Hello there, I am a nice Modal Window.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="modals">
+            <div className="modal">
+              <a href="#modal">
+                <img src="php.png" alt="headphones"></img>
+              </a>
+            </div>
+            <div id="modal">
+              <div class="modal__window">
+                <a class="modal__close" href="#close">
+                  X
+                </a>
+                <img src="php.png"></img>
+                <h2>Please to meet you!</h2>
+                <p>Hello there, I am a nice Modal Window.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="modals">
+            <div className="modal">
+              <a href="#modal">
+                <img src="php.png" alt="headphones"></img>
+              </a>
+            </div>
+            <div id="modal">
+              <div class="modal__window">
+                <a class="modal__close" href="#close">
+                  X
+                </a>
+                <img src="php.png"></img>
+                <h2>Please to meet you!</h2>
+                <p>Hello there, I am a nice Modal Window.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="modals">
+            <div className="modal">
+              <a href="#modal">
+                <img src="php.png" alt="headphones"></img>
+              </a>
+            </div>
+            <div id="modal">
+              <div class="modal__window">
+                <a class="modal__close" href="#close">
+                  X
+                </a>
+                <img src="php.png"></img>
+                <h2>Please to meet you!</h2>
+                <p>Hello there, I am a nice Modal Window.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </section>
       {/*  <div className="header">
         <div className="context">

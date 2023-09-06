@@ -415,6 +415,64 @@ section {
   line-height: 1.5;
 }
 
+/*projects section starts here */
+.modal .modal-section{
+ /*  background-color: red; */
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+  padding: 2rem 2rem;
+  justify-content: space-between;
+ /*  padding-bottom: 3rem; */
+ 
+}
+
+.modal .modal-section .modals{
+/*   background-color:blue; */
+border: .1rem solid rgba(0, 0, 0, .1);
+  width: 30%;
+}
+
+.modal .modal-section .modals .modal{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+/*   background-color: orange; */
+}
+
+
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__window {
+  position: relative;
+  background-color: white;
+  padding: 4em 2em;
+}
+
+.modal__close {
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+
+#modal:not(:target) {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/*projects section ends here */
+
+
 /* 
 
 .about .row .content .content-frame {
