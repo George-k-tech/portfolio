@@ -106,7 +106,7 @@ const Home = () => {
       </section>
 
       <p className="heading">
-        <span> Peojects </span>
+        <span> Projects </span>
       </p>
 
       <section>
