@@ -417,41 +417,60 @@ section {
 
 /*projects section starts here */
 
-.row {
+.project-row {
   margin: 8px -16px;
+  font: var(--font);
 }
 /* Add padding BETWEEN each column */
-.row,
-.row > .column {
+.project-row,
+.project-row > .column {
   padding: 6px;
 }
 
 /* Create four equal columns that floats next to each other */
-.column {
+.project-row .column {
   float: left;
   width: 50%;
 }
 
 /* Clear floats after rows */ 
-.row:after {
+.project-row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.content {
-  padding: 8px;
-  background-color: red;
+.column .content {
+  padding: 10px;
+ /*  background-color: red; */
   display: flex;
-/*   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .column .content .project-image{
-  height: 100%;
   width: 100%;
   }
   .column .content .project-image img{
   width: 100%;
   }
+
+  .column .content .project-content{
+    width: 100%;
+  /*   background-color: blue; */
+    display: flex;
+    align-items: center;
+    padding: 8px;
+  }
+  .column .content .project-content .project-content-main h3{
+      display: flex;
+      justify-content: center;
+      font-size: 16px;
+  }
+  .column .content .project-content .project-content-main p{
+    margin-top: 1rem;  
+    font-size: 13px;
+  }
+
 
 /*projects section ends here */
 

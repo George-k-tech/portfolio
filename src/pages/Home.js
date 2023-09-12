@@ -106,19 +106,21 @@ const Home = () => {
       </p>
 
       <section className="project section">
-        <div class="row">
+        <div class="project-row">
           <div class="column">
             <div class="content">
               <div className="project-image">
                 <img src="expense.jpeg" alt="Mountains"></img>
               </div>
               <div className="project-content">
-                <h3>My Work</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                  Temporibus necessitatibus sea ei, at tantas oporteat nam.
-                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                </p>
+                <div className="project-content-main">
+                  <h3>My Work</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -129,12 +131,14 @@ const Home = () => {
                 <img src="meal.jpeg" alt="Lights"></img>
               </div>
               <div className="project-content">
-                <h3>My Work</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                  Temporibus necessitatibus sea ei, at tantas oporteat nam.
-                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                </p>
+              <div className="project-content-main">
+                  <h3>My Work</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -145,12 +149,14 @@ const Home = () => {
                 <img src="meal.jpeg" alt="Nature"></img>
               </div>
               <div className="project-content">
-                <h3>My Work</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                  Temporibus necessitatibus sea ei, at tantas oporteat nam.
-                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                </p>
+              <div className="project-content-main">
+                  <h3>My Work</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -161,12 +167,14 @@ const Home = () => {
                 <img src="expense.jpeg" alt="Mountains"></img>
               </div>
               <div className="project-content">
-                <h3>My Work</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                  Temporibus necessitatibus sea ei, at tantas oporteat nam.
-                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                </p>
+              <div className="project-content-main">
+                  <h3>My Work</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
