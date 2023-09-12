@@ -102,7 +102,9 @@ const Home = () => {
       </section>
 
       <p className="heading">
+    
         <span>Projects</span>
+
       </p>
 
       <section className="project section">
