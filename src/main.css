@@ -416,59 +416,42 @@ section {
 }
 
 /*projects section starts here */
-.modal .modal-section{
- /*  background-color: red; */
+
+.row {
+  margin: 8px -16px;
+}
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 6px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  padding: 8px;
+  background-color: red;
   display: flex;
-  gap: .5rem;
-  flex-wrap: wrap;
-  padding: 2rem 2rem;
-  justify-content: space-between;
- /*  padding-bottom: 3rem; */
- 
+/*   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
-
-.modal .modal-section .modals{
-/*   background-color:blue; */
-border: .1rem solid rgba(0, 0, 0, .1);
-  width: 30%;
-}
-
-.modal .modal-section .modals .modal{
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
-/*   background-color: orange; */
-}
-
-
-#modal {
-  position: fixed;
-  top: 0;
-  left: 0;
+.column .content .project-image{
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, .5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal__window {
-  position: relative;
-  background-color: white;
-  padding: 4em 2em;
-}
-
-.modal__close {
-  position: absolute;
-  top: -30px;
-  right: 0;
-}
-
-#modal:not(:target) {
-  visibility: hidden;
-  opacity: 0;
-}
+  }
+  .column .content .project-image img{
+  width: 100%;
+  }
 
 /*projects section ends here */
 
@@ -657,5 +640,6 @@ border: .1rem solid rgba(0, 0, 0, .1);
   .about .row .content{
     display: block;
   }
+ 
 
 }

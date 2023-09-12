@@ -105,81 +105,71 @@ const Home = () => {
         <span>Projects</span>
       </p>
 
-      <section className="modal section">
-        <div className="modal-section">
-
-          <div className="modals">
-            <div className="modal">
-              <a href="#modal">
-                <img src="php.png" alt="headphones"></img>
-              </a>
-            </div>
-            <div id="modal">
-              <div class="modal__window">
-                <a class="modal__close" href="#close">
-                  X
-                </a>
-                <img src="php.png"></img>
-                <h2>Please to meet you!</h2>
-                <p>Hello there, I am a nice Modal Window.</p>
+      <section className="project section">
+        <div class="row">
+          <div class="column">
+            <div class="content">
+              <div className="project-image">
+                <img src="expense.jpeg" alt="Mountains"></img>
+              </div>
+              <div className="project-content">
+                <h3>My Work</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                </p>
               </div>
             </div>
           </div>
 
-          <div className="modals">
-            <div className="modal">
-              <a href="#modal">
-                <img src="php.png" alt="headphones"></img>
-              </a>
-            </div>
-            <div id="modal">
-              <div class="modal__window">
-                <a class="modal__close" href="#close">
-                  X
-                </a>
-                <img src="php.png"></img>
-                <h2>Please to meet you!</h2>
-                <p>Hello there, I am a nice Modal Window.</p>
+          <div class="column">
+            <div class="content">
+              <div className="project-image">
+                <img src="meal.jpeg" alt="Lights"></img>
+              </div>
+              <div className="project-content">
+                <h3>My Work</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                </p>
               </div>
             </div>
           </div>
 
-          <div className="modals">
-            <div className="modal">
-              <a href="#modal">
-                <img src="php.png" alt="headphones"></img>
-              </a>
-            </div>
-            <div id="modal">
-              <div class="modal__window">
-                <a class="modal__close" href="#close">
-                  X
-                </a>
-                <img src="php.png"></img>
-                <h2>Please to meet you!</h2>
-                <p>Hello there, I am a nice Modal Window.</p>
+          <div class="column">
+            <div class="content">
+              <div className="project-image">
+                <img src="meal.jpeg" alt="Nature"></img>
+              </div>
+              <div className="project-content">
+                <h3>My Work</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                </p>
               </div>
             </div>
           </div>
 
-          <div className="modals">
-            <div className="modal">
-              <a href="#modal">
-                <img src="php.png" alt="headphones"></img>
-              </a>
-            </div>
-            <div id="modal">
-              <div class="modal__window">
-                <a class="modal__close" href="#close">
-                  X
-                </a>
-                <img src="php.png"></img>
-                <h2>Please to meet you!</h2>
-                <p>Hello there, I am a nice Modal Window.</p>
+          <div class="column">
+            <div class="content">
+              <div className="project-image">
+                <img src="expense.jpeg" alt="Mountains"></img>
+              </div>
+              <div className="project-content">
+                <h3>My Work</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                  Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                </p>
               </div>
             </div>
           </div>
-
         </div>
       </section>
       {/*  <div className="header">
