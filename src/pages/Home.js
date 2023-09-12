@@ -107,8 +107,9 @@ const Home = () => {
 
       <section className="project section">
         <div class="project-row">
-          <div class="column">
-            <div class="content">
+
+          <div class="project-column">
+            <div class="project-contents">
               <div className="project-image">
                 <img src="expense.jpeg" alt="Mountains"></img>
               </div>
@@ -125,8 +126,8 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="column">
-            <div class="content">
+          <div class="project-column">
+            <div class="project-contents">
               <div className="project-image">
                 <img src="meal.jpeg" alt="Lights"></img>
               </div>
@@ -143,8 +144,8 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="column">
-            <div class="content">
+          <div class="project-column">
+            <div class="project-contents">
               <div className="project-image">
                 <img src="meal.jpeg" alt="Nature"></img>
               </div>
@@ -161,8 +162,8 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="column">
-            <div class="content">
+          <div class="project-column">
+            <div class="project-contents">
               <div className="project-image">
                 <img src="expense.jpeg" alt="Mountains"></img>
               </div>
