@@ -63,54 +63,125 @@ const Home = () => {
           </div>
           <div className="content">
             <h3>My Stacks</h3>
-            
-              <div className="content-left">
 
+            <div className="content-left">
               <div className="logo-icon">
                 <img src="laravel.png" alt="laravel"></img>
-                  <p>Laravel</p>
-                </div>
+                <p>Laravel</p>
+              </div>
 
-                <div className="logo-icon">
+              <div className="logo-icon">
                 <img src="react.jpg" alt="react"></img>
-                  <p>React</p>
-                </div>
+                <p>React</p>
+              </div>
 
-                <div className="logo-icon">
+              <div className="logo-icon">
                 <img src="flutter.jpeg" alt="flutter"></img>
-                  <p>Flutter</p>
-                </div>
-
+                <p>Flutter</p>
               </div>
+            </div>
 
-              <div className="content-right">
-
-                <div className="logo-icon">
+            <div className="content-right">
+              <div className="logo-icon">
                 <img src="php.png" alt="php"></img>
-                  <p>PHP</p>
-                </div>
-
-                <div className="logo-icon">
-                <img src="javascript.png" alt="javascript"></img>
-                  <p>Javascript</p>
-                </div>
-
-                <div className="logo-icon">
-                <img src="dart.jpg" alt="dart"></img>
-                  <p>Dart</p>
-                </div>
+                <p>PHP</p>
               </div>
 
+              <div className="logo-icon">
+                <img src="javascript.png" alt="javascript"></img>
+                <p>Javascript</p>
+              </div>
+
+              <div className="logo-icon">
+                <img src="dart.jpg" alt="dart"></img>
+                <p>Dart</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       <p className="heading">
-        <span> Projects </span>
+    
+        <span>Projects</span>
+
       </p>
 
-      <section>
+      <section className="project section">
+        <div class="project-row">
 
+          <div class="project-column">
+            <div class="project-contents">
+              <div className="project-image">
+                <img src="expense.jpeg" alt="Mountains"></img>
+              </div>
+              <div className="project-content">
+                <div className="project-content-main">
+                  <h3>My Work</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-column">
+            <div class="project-contents">
+              <div className="project-image">
+                <img src="meal.jpeg" alt="Lights"></img>
+              </div>
+              <div className="project-content">
+              <div className="project-content-main">
+                  <h3>My Work</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-column">
+            <div class="project-contents">
+              <div className="project-image">
+                <img src="meal.jpeg" alt="Nature"></img>
+              </div>
+              <div className="project-content">
+              <div className="project-content-main">
+                  <h3>My Work</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-column">
+            <div class="project-contents">
+              <div className="project-image">
+                <img src="expense.jpeg" alt="Mountains"></img>
+              </div>
+              <div className="project-content">
+              <div className="project-content-main">
+                  <h3>My Work</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
+                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       {/*  <div className="header">
         <div className="context">

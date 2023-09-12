@@ -16,8 +16,10 @@ const Navbar = () => {
      
       <div className="menu">
 
+
         <NavLink><li><a href="/">Recent Works</a></li></NavLink>
         <NavLink><li><a href="/">Contacts</a></li></NavLink>
+
 
       </div>
     </ul>
