@@ -117,11 +117,11 @@ const Home = () => {
               </div>
               <div className="project-content">
                 <div className="project-content-main">
-                  <h3>My Work</h3>
+                  <h3>Personal Expense App</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
-                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                    The personal expense application is a mobile application,
+                    it is developed using flutter and it's main use is to track down expenses,
+                    the application available at the github repository on this  <a href="https://github.com/George-k-tech/expense_app">Link</a>
                   </p>
                 </div>
               </div>
@@ -135,11 +135,13 @@ const Home = () => {
               </div>
               <div className="project-content">
               <div className="project-content-main">
-                  <h3>My Work</h3>
+                  <h3>Meals App</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
-                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                   The meal app is a mobile application that describes
+                   how to prepare various food, it has an ingredient list
+                   of the food and the time required to prepare.
+                   The application is available on github at the repository
+                   on this <a href="https://github.com/George-k-tech/meal_app">Link</a>
                   </p>
                 </div>
               </div>
@@ -149,15 +151,22 @@ const Home = () => {
           <div class="project-column">
             <div class="project-contents">
               <div className="project-image">
-                <img src="meal.jpeg" alt="Nature"></img>
+                <img src="1.png" alt="Nature"></img>
+                <img src="2.png" alt="Nature"></img>
+                <img src="3.png" alt="Nature"></img>
+                <img src="4.png" alt="Nature"></img>
+                <img src="5.png" alt="Nature"></img>
               </div>
               <div className="project-content">
               <div className="project-content-main">
-                  <h3>My Work</h3>
+                  <h3>G-commerce</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
-                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  G-commerce is a web-based ecommerce application developed using the Laravel framework. 
+                  The primary purpose of this application is to serve as an online platform for the sale of various types of products. 
+                  G-commerce offers a user-friendly interface designed to facilitate product discovery, 
+                  selection, and purchase for customers. Additionally, it includes an admin interface, 
+                  which is likely used for managing product listings, user accounts, orders, and other aspects of the ecommerce platform.
+                  It is available at github repository on this <a href="https://github.com/George-k-tech/app">Link</a>
                   </p>
                 </div>
               </div>
@@ -167,21 +176,36 @@ const Home = () => {
           <div class="project-column">
             <div class="project-contents">
               <div className="project-image">
-                <img src="expense.jpeg" alt="Mountains"></img>
+              <img src="6.png" alt="Nature"></img>
+                <img src="7.png" alt="Nature"></img>
+                <img src="8.png" alt="Nature"></img>
+                <img src="9.png" alt="Nature"></img>
+                <img src="10.png" alt="Nature"></img>
               </div>
               <div className="project-content">
               <div className="project-content-main">
-                  <h3>My Work</h3>
+                  <h3>Cvmama</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
-                    Temporibus necessitatibus sea ei, at tantas oporteat nam.
-                    Lorem ipsum dolor sit amet, tempor prodesset eos no.
+                  Cvmama is a web-based application developed to simplify the process of creating professional CVs (resumes).
+                   It serves as a user-friendly tool for individuals to easily build, customize, and format their CVs, 
+                   thereby streamlining the often challenging task of resume writing.
+                   The application is available online at <a href="https://cvmama.netlify.app/">CVMAMA</a>
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <p className="heading">
+    
+    <span>Contacts</span>
+
+  </p>
+
+      <section>
+      
       </section>
       {/*  <div className="header">
         <div className="context">

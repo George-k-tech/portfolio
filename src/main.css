@@ -11,7 +11,7 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
+ /*  text-transform: capitalize; */
   list-style: none;
   transition: .2s linear;
 }
@@ -420,6 +420,7 @@ section {
 .project-row {
   margin: 8px -16px;
   font: var(--font);
+  text-transform:none;
 }
 /* Add padding BETWEEN each column */
 .project-row,
@@ -468,7 +469,7 @@ section {
   }
   .project-column .project-contents .project-content .project-content-main p{
     margin-top: 1rem;  
-    font-size: 13px;
+    font-size: 14px;
   }
 
 
