@@ -102,14 +102,11 @@ const Home = () => {
       </section>
 
       <p className="heading">
-    
         <span>Projects</span>
-
       </p>
 
       <section className="project section">
         <div class="project-row">
-
           <div class="project-column">
             <div class="project-contents">
               <div className="project-image">
@@ -119,9 +116,13 @@ const Home = () => {
                 <div className="project-content-main">
                   <h3>Personal Expense App</h3>
                   <p>
-                    The personal expense application is a mobile application,
-                    it is developed using flutter and it's main use is to track down expenses,
-                    the application available at the github repository on this  <a href="https://github.com/George-k-tech/expense_app">Link</a>
+                    The personal expense application is a mobile application, it
+                    is developed using flutter and it's main use is to track
+                    down expenses, the application available at the github
+                    repository on this{" "}
+                    <a href="https://github.com/George-k-tech/expense_app">
+                      Link
+                    </a>
                   </p>
                 </div>
               </div>
@@ -134,14 +135,14 @@ const Home = () => {
                 <img src="meal.jpeg" alt="Lights"></img>
               </div>
               <div className="project-content">
-              <div className="project-content-main">
+                <div className="project-content-main">
                   <h3>Meals App</h3>
                   <p>
-                   The meal app is a mobile application that describes
-                   how to prepare various food, it has an ingredient list
-                   of the food and the time required to prepare.
-                   The application is available on github at the repository
-                   on this <a href="https://github.com/George-k-tech/meal_app">Link</a>
+                    The meal app is a mobile application that describes how to
+                    prepare various food, it has an ingredient list of the food
+                    and the time required to prepare. The application is
+                    available on github at the repository on this{" "}
+                    <a href="https://github.com/George-k-tech/meal_app">Link</a>
                   </p>
                 </div>
               </div>
@@ -158,15 +159,20 @@ const Home = () => {
                 <img src="5.png" alt="Nature"></img>
               </div>
               <div className="project-content">
-              <div className="project-content-main">
+                <div className="project-content-main">
                   <h3>G-commerce</h3>
                   <p>
-                  G-commerce is a web-based ecommerce application developed using the Laravel framework. 
-                  The primary purpose of this application is to serve as an online platform for the sale of various types of products. 
-                  G-commerce offers a user-friendly interface designed to facilitate product discovery, 
-                  selection, and purchase for customers. Additionally, it includes an admin interface, 
-                  which is likely used for managing product listings, user accounts, orders, and other aspects of the ecommerce platform.
-                  It is available at github repository on this <a href="https://github.com/George-k-tech/app">Link</a>
+                    G-commerce is a web-based ecommerce application developed
+                    using the Laravel framework. The primary purpose of this
+                    application is to serve as an online platform for the sale
+                    of various types of products. G-commerce offers a
+                    user-friendly interface designed to facilitate product
+                    discovery, selection, and purchase for customers.
+                    Additionally, it includes an admin interface, which is
+                    likely used for managing product listings, user accounts,
+                    orders, and other aspects of the ecommerce platform. It is
+                    available at github repository on this{" "}
+                    <a href="https://github.com/George-k-tech/app">Link</a>
                   </p>
                 </div>
               </div>
@@ -176,20 +182,23 @@ const Home = () => {
           <div class="project-column">
             <div class="project-contents">
               <div className="project-image">
-              <img src="6.png" alt="Nature"></img>
+                <img src="6.png" alt="Nature"></img>
                 <img src="7.png" alt="Nature"></img>
                 <img src="8.png" alt="Nature"></img>
                 <img src="9.png" alt="Nature"></img>
                 <img src="10.png" alt="Nature"></img>
               </div>
               <div className="project-content">
-              <div className="project-content-main">
+                <div className="project-content-main">
                   <h3>Cvmama</h3>
                   <p>
-                  Cvmama is a web-based application developed to simplify the process of creating professional CVs (resumes).
-                   It serves as a user-friendly tool for individuals to easily build, customize, and format their CVs, 
-                   thereby streamlining the often challenging task of resume writing.
-                   The application is available online at <a href="https://cvmama.netlify.app/">CVMAMA</a>
+                    Cvmama is a web-based application developed to simplify the
+                    process of creating professional CVs (resumes). It serves as
+                    a user-friendly tool for individuals to easily build,
+                    customize, and format their CVs, thereby streamlining the
+                    often challenging task of resume writing. The application is
+                    available online at{" "}
+                    <a href="https://cvmama.netlify.app/">CVMAMA</a>
                   </p>
                 </div>
               </div>
@@ -199,14 +208,73 @@ const Home = () => {
       </section>
 
       <p className="heading">
-    
-    <span>Contacts</span>
+        <span>Contacts</span>
+      </p>
 
-  </p>
+      <section className="contact section">
+        <div id="container">
+          <div id="cover">
+            <h1 class="sign-up">Hello, Friend!</h1>
+            <p class="sign-up">
+              Want to get in touch with me?<br></br> check out my socials!!!
+            </p>
+            <a class="button sign-up" href="#cover">
+              Socials
+            </a>
 
-      <section>
+            <h1 class="sign-in">Hello Friend!</h1>
+            <p class="sign-in">
+              Have any inquiry?<br></br> send me a message and i will get back
+              to you
+            </p>
+            <br></br>
+            <a class="button sub sign-in" href="#close">
+              Message
+            </a>
+          </div>
+
+          <div id="login">
+            <h1>Message</h1>
+            <a href="#">
+              <img
+                class="social-login"
+                src="https://image.flaticon.com/icons/png/128/59/59439.png"
+              ></img>{" "}
+            </a>
+            <a href="#">
+              <img
+                class="social-login"
+                src="https://image.flaticon.com/icons/png/128/49/49026.png"
+              ></img>
+            </a>
+            <a href="#">
+              <img
+                class="social-login"
+                src="https://image.flaticon.com/icons/png/128/34/34227.png"
+              ></img>
+            </a>
+            <p>or use your email account:</p>
+
+            <form>
+              
+            </form>
+
+          </div>
+
+          <div id="register">
+            <h1>Create Account</h1>
+            <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/59/59439.png"></img></a>
+            <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/49/49026.png"></img></a>
+            <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/34/34227.png"></img></a>
+            <p>or use your email for registration:</p>
+            <form>
+              
+            </form>
+        </div>
       
+        </div>
       </section>
+
       {/*  <div className="header">
         <div className="context">
           <div className="reveal-container">
