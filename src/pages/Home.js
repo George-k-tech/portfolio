@@ -213,7 +213,7 @@ const Home = () => {
 
       <section className="contact section">
        
-      <div id="container">
+      <div id="contacts-container">
        
        <div id="cover">
           
@@ -233,27 +233,20 @@ const Home = () => {
            <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/59/59439.png"></img></a>
            <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/49/49026.png"></img></a>
            <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/34/34227.png"></img></a>
-           <p>or use your email account:</p>
+           <p>Send me a message:</p>
            <form>
-               <input type="email" placeholder="Email" autocomplete="off"></input><br></br>
-               <input type="password" placeholder="Password" autocomplete="off"></input><br></br>
-               <a id="forgot-pass" href="#">Forgot your password?</a><br></br>
-               <input class="submit-btn" type="submit" value="Sign In"></input>
+              <input type="text" placeholder="Name eg. kariuki George" ></input><br></br>
+              <input type="email" placeholder="Email eg. email@gmail.com" ></input><br></br>
+              <div className="message-textarea">
+               <textarea  placeholder="message"></textarea><br></br>
+              </div>
+               <input class="submit-btn" type="submit" value="Send Message"></input>
            </form>
        </div>
 
        <div id="register">
-           <h1>Create Account</h1>
-           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/59/59439.png"></img></a>
-           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/49/49026.png"></img></a>
-           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/34/34227.png"></img></a>
-           <p>or use your email for registration:</p>
-           <form>
-               <input type="text" placeholder="Name" autocomplete="off"></input><br></br>
-               <input type="email" placeholder="Email" autocomplete="off"></input><br></br>
-               <input type="password" placeholder="Password" autocomplete="off"></input><br></br>
-               <input class="submit-btn" type="submit" value="Sign Up"></input>
-           </form>
+           <h1>Socials</h1>
+          
        </div>
    </div>
    
