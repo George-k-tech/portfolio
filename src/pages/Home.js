@@ -222,6 +222,7 @@ const Home = () => {
            <a class="button sign-up" href="#cover">Socials</a>
           
            <h1 class="sign-in">Hello  Friend!</h1>
+           <br></br>
            <p class="sign-in">Have any inquiry?<br></br> send me a message and i will get back to you</p>
            <br></br>
            <a class="button sub sign-in" href="#close">Message</a>
