@@ -212,67 +212,51 @@ const Home = () => {
       </p>
 
       <section className="contact section">
-        <div id="container">
-          <div id="cover">
-            <h1 class="sign-up">Hello, Friend!</h1>
-            <p class="sign-up">
-              Want to get in touch with me?<br></br> check out my socials!!!
-            </p>
-            <a class="button sign-up" href="#cover">
-              Socials
-            </a>
+       
+      <div id="container">
+       
+       <div id="cover">
+          
+           <h1 class="sign-up">Hello, Friend!</h1>
+           <p class="sign-up">Want to get in touch with me?<br></br> check out my socials!!!</p>
+           <a class="button sign-up" href="#cover">Socials</a>
+          
+           <h1 class="sign-in">Hello  Friend!</h1>
+           <p class="sign-in">Have any inquiry?<br></br> send me a message and i will get back to you</p>
+           <br></br>
+           <a class="button sub sign-in" href="#close">Message</a>
+       </div>
 
-            <h1 class="sign-in">Hello Friend!</h1>
-            <p class="sign-in">
-              Have any inquiry?<br></br> send me a message and i will get back
-              to you
-            </p>
-            <br></br>
-            <a class="button sub sign-in" href="#close">
-              Message
-            </a>
-          </div>
+       <div id="login">
+           <h1>Message</h1>
+           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/59/59439.png"></img></a>
+           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/49/49026.png"></img></a>
+           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/34/34227.png"></img></a>
+           <p>or use your email account:</p>
+           <form>
+               <input type="email" placeholder="Email" autocomplete="off"></input><br></br>
+               <input type="password" placeholder="Password" autocomplete="off"></input><br></br>
+               <a id="forgot-pass" href="#">Forgot your password?</a><br></br>
+               <input class="submit-btn" type="submit" value="Sign In"></input>
+           </form>
+       </div>
 
-          <div id="login">
-            <h1>Message</h1>
-            <a href="#">
-              <img
-                class="social-login"
-                src="https://image.flaticon.com/icons/png/128/59/59439.png"
-              ></img>{" "}
-            </a>
-            <a href="#">
-              <img
-                class="social-login"
-                src="https://image.flaticon.com/icons/png/128/49/49026.png"
-              ></img>
-            </a>
-            <a href="#">
-              <img
-                class="social-login"
-                src="https://image.flaticon.com/icons/png/128/34/34227.png"
-              ></img>
-            </a>
-            <p>or use your email account:</p>
+       <div id="register">
+           <h1>Create Account</h1>
+           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/59/59439.png"></img></a>
+           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/49/49026.png"></img></a>
+           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/34/34227.png"></img></a>
+           <p>or use your email for registration:</p>
+           <form>
+               <input type="text" placeholder="Name" autocomplete="off"></input><br></br>
+               <input type="email" placeholder="Email" autocomplete="off"></input><br></br>
+               <input type="password" placeholder="Password" autocomplete="off"></input><br></br>
+               <input class="submit-btn" type="submit" value="Sign Up"></input>
+           </form>
+       </div>
+   </div>
+   
 
-            <form>
-              
-            </form>
-
-          </div>
-
-          <div id="register">
-            <h1>Create Account</h1>
-            <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/59/59439.png"></img></a>
-            <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/49/49026.png"></img></a>
-            <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/34/34227.png"></img></a>
-            <p>or use your email for registration:</p>
-            <form>
-              
-            </form>
-        </div>
-      
-        </div>
       </section>
 
       {/*  <div className="header">
