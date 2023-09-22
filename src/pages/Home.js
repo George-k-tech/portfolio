@@ -230,9 +230,9 @@ const Home = () => {
 
        <div id="login">
            <h1>Message</h1>
-           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/59/59439.png"></img></a>
-           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/49/49026.png"></img></a>
-           <a href="#"><img class="social-login" src="https://image.flaticon.com/icons/png/128/34/34227.png"></img></a>
+           <a href="/"><img class="social-login" src="dot.png" alt="dots"></img></a>
+           <a href="/"><img class="social-login" src="dot.png" alt="dots1"></img></a>
+           <a href="/"><img class="social-login" src="dot.png" alt="dots2"></img></a>
            <p>Send me a message:</p>
            <form>
               <input type="text" placeholder="Name eg. kariuki George" ></input><br></br>
@@ -247,6 +247,30 @@ const Home = () => {
        <div id="register">
            <h1>Socials</h1>
           
+           <div class="button-container">
+  
+        <div class="glass-btn blue-btn">
+        
+        <img src="github.png" alt="Github" ></img>
+        </div>
+      
+        <div class="glass-btn red-btn">
+        
+          <img src="insta.png" alt="Instagram" ></img>
+        </div>
+        
+        <div class="glass-btn amber-btn">
+        
+          <img src="whatsapp.png" alt="Whatsapp"></img>
+        </div>
+
+        <div class="glass-btn black-btn">
+        
+          <img src="linkedin.png" alt="LinkedIn"></img>
+        </div>
+      
+      </div>
+
        </div>
    </div>
    
