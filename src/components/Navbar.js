@@ -17,8 +17,8 @@ const Navbar = () => {
       <div className="menu">
 
 
-        <NavLink><li><a href="/">Recent Works</a></li></NavLink>
-        <NavLink><li><a href="/">Contacts</a></li></NavLink>
+        <NavLink to="/work"><li><a >Recent Works</a></li></NavLink>
+        <NavLink to="/contacts"><li><a >Contacts</a></li></NavLink>
 
 
       </div>
