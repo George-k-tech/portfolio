@@ -64,39 +64,49 @@ const Home = () => {
           <div className="content">
             <h3>My Stacks</h3>
 
-            <div className="content-left">
-              <div className="logo-icon">
-                <img src="laravel.png" alt="laravel"></img>
-                <p>Laravel</p>
-              </div>
+              <div className="content-left">
 
-              <div className="logo-icon">
-                <img src="react.jpg" alt="react"></img>
-                <p>React</p>
-              </div>
+                  <p>HTML</p>
+                  <div className="skill-container">
+                  <div class="skills html">90%</div>
+                  </div>
 
-              <div className="logo-icon">
-                <img src="flutter.jpeg" alt="flutter"></img>
-                <p>Flutter</p>
-              </div>
-            </div>
+                  <p>CSS</p>
+                  <div className="skill-container">
+                  <div class="skills css">80%</div>
+                  </div>
 
-            <div className="content-right">
-              <div className="logo-icon">
-                <img src="php.png" alt="php"></img>
-                <p>PHP</p>
-              </div>
+                  <p>PHP</p>
+                  <div className="skill-container">
+                  <div class="skills php">75%</div>
+                  </div>
 
-              <div className="logo-icon">
-                <img src="javascript.png" alt="javascript"></img>
-                <p>Javascript</p>
-              </div>
+                  <p>Javascript</p>
+                  <div className="skill-container">
+                  <div class="skills javascript">55%</div>
+                  </div>
 
-              <div className="logo-icon">
-                <img src="dart.jpg" alt="dart"></img>
-                <p>Dart</p>
+                  <p>Dart</p>
+                  <div className="skill-container">
+                  <div class="skills dart">50%</div>
+                  </div>
+
+                  <p>Laravel</p>
+                  <div className="skill-container">
+                  <div class="skills laravel">70%</div>
+                  </div>
+
+                  <p>React</p>
+                  <div className="skill-container">
+                  <div class="skills react">65%</div>
+                  </div>
+
+                  <p>Flutter</p>
+                  <div className="skill-container">
+                  <div class="skills flutter">55%</div>
+                  </div>
+
               </div>
-            </div>
           </div>
         </div>
       </section>
@@ -212,69 +222,82 @@ const Home = () => {
       </p>
 
       <section className="contact section">
-       
-      <div id="contacts-container">
-       
-       <div id="cover">
-          
-           <h1 class="sign-up">Hello, Friend!</h1>
-           <p class="sign-up">Want to get in touch with me?<br></br> check out my socials!!!</p>
-           <a class="button sign-up" href="#cover">Socials</a>
-          
-           <h1 class="sign-in">Hello  Friend!</h1>
-           <br></br>
-           <p class="sign-in">Have any inquiry?<br></br> send me a message and i will get back to you</p>
-           <br></br>
-           <a class="button sub sign-in" href="#close">Message</a>
-       </div>
+        <div id="contacts-container">
+          <div id="cover">
+            <h1 class="sign-up">Hello, Friend!</h1>
+            <p class="sign-up">
+              Want to get in touch with me?<br></br> check out my socials!!!
+            </p>
+            <a class="button sign-up" href="#cover">
+              Socials
+            </a>
 
-       <div id="login">
-           <h1>Message</h1>
-           <a href="/"><img class="social-login" src="dot.png" alt="dots"></img></a>
-           <a href="/"><img class="social-login" src="dot.png" alt="dots1"></img></a>
-           <a href="/"><img class="social-login" src="dot.png" alt="dots2"></img></a>
-           <p>Send me a message:</p>
-           <form>
-              <input type="text" placeholder="Name eg. kariuki George" ></input><br></br>
-              <input type="email" placeholder="Email eg. email@gmail.com" ></input><br></br>
-              <div className="message-textarea">
-               <textarea  placeholder="message"></textarea><br></br>
+            <h1 class="sign-in">Hello Friend!</h1>
+            <br></br>
+            <p class="sign-in">
+              Have any inquiry?<br></br> send me a message and i will get back
+              to you
+            </p>
+            <br></br>
+            <a class="button sub sign-in" href="#close">
+              Message
+            </a>
+          </div>
+
+          <div id="register">
+            <h1>Socials</h1>
+
+            <div class="button-container">
+              <div class="glass-btn blue-btn">
+                <img src="github.png" alt="Github"></img>
               </div>
-               <input class="submit-btn" type="submit" value="Send Message"></input>
-           </form>
-       </div>
 
-       <div id="register">
-           <h1>Socials</h1>
-          
-           <div class="button-container">
-  
-        <div class="glass-btn blue-btn">
-        
-        <img src="github.png" alt="Github" ></img>
-        </div>
-      
-        <div class="glass-btn red-btn">
-        
-          <img src="insta.png" alt="Instagram" ></img>
-        </div>
-        
-        <div class="glass-btn amber-btn">
-        
-          <img src="whatsapp.png" alt="Whatsapp"></img>
-        </div>
+              <div class="glass-btn red-btn">
+                <img src="insta.png" alt="Instagram"></img>
+              </div>
 
-        <div class="glass-btn black-btn">
-        
-          <img src="linkedin.png" alt="LinkedIn"></img>
+              <div class="glass-btn amber-btn">
+                <img src="whatsapp.png" alt="Whatsapp"></img>
+              </div>
+
+              <div class="glass-btn black-btn">
+                <img src="linkedin.png" alt="LinkedIn"></img>
+              </div>
+            </div>
+          </div>
+
+          <div id="login">
+            <h1>Message</h1>
+            <a href="/">
+              <img class="social-login" src="dot.png" alt="dots"></img>
+            </a>
+            <a href="/">
+              <img class="social-login" src="dot.png" alt="dots1"></img>
+            </a>
+            <a href="/">
+              <img class="social-login" src="dot.png" alt="dots2"></img>
+            </a>
+            <p>Send me a message:</p>
+            <form>
+              <input type="text" placeholder="Name eg. kariuki George"></input>
+              <br></br>
+              <input
+                type="email"
+                placeholder="Email eg. email@gmail.com"
+              ></input>
+              <br></br>
+              <div className="message-textarea">
+                <textarea placeholder="message"></textarea>
+                <br></br>
+              </div>
+              <input
+                class="submit-btn"
+                type="submit"
+                value="Send Message"
+              ></input>
+            </form>
+          </div>
         </div>
-      
-      </div>
-
-       </div>
-   </div>
-   
-
       </section>
 
       {/*  <div className="header">
