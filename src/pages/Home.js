@@ -64,39 +64,49 @@ const Home = () => {
           <div className="content">
             <h3>My Stacks</h3>
 
-            <div className="content-left">
-              <div className="logo-icon">
-                <img src="laravel.png" alt="laravel"></img>
-                <p>Laravel</p>
-              </div>
+              <div className="content-left">
 
-              <div className="logo-icon">
-                <img src="react.jpg" alt="react"></img>
-                <p>React</p>
-              </div>
+                  <p>HTML</p>
+                  <div className="skill-container">
+                  <div class="skills html">90%</div>
+                  </div>
 
-              <div className="logo-icon">
-                <img src="flutter.jpeg" alt="flutter"></img>
-                <p>Flutter</p>
-              </div>
-            </div>
+                  <p>CSS</p>
+                  <div className="skill-container">
+                  <div class="skills css">80%</div>
+                  </div>
 
-            <div className="content-right">
-              <div className="logo-icon">
-                <img src="php.png" alt="php"></img>
-                <p>PHP</p>
-              </div>
+                  <p>PHP</p>
+                  <div className="skill-container">
+                  <div class="skills php">75%</div>
+                  </div>
 
-              <div className="logo-icon">
-                <img src="javascript.png" alt="javascript"></img>
-                <p>Javascript</p>
-              </div>
+                  <p>Javascript</p>
+                  <div className="skill-container">
+                  <div class="skills javascript">55%</div>
+                  </div>
 
-              <div className="logo-icon">
-                <img src="dart.jpg" alt="dart"></img>
-                <p>Dart</p>
+                  <p>Dart</p>
+                  <div className="skill-container">
+                  <div class="skills dart">50%</div>
+                  </div>
+
+                  <p>Laravel</p>
+                  <div className="skill-container">
+                  <div class="skills laravel">70%</div>
+                  </div>
+
+                  <p>React</p>
+                  <div className="skill-container">
+                  <div class="skills react">65%</div>
+                  </div>
+
+                  <p>Flutter</p>
+                  <div className="skill-container">
+                  <div class="skills flutter">55%</div>
+                  </div>
+
               </div>
-            </div>
           </div>
         </div>
       </section>
