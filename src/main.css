@@ -951,5 +951,16 @@ textarea{
     margin: 0;
   }
 
+  #cover{
+    display: none;
+  }
+  #login{
+    width: 100%;
+  }
+
+
+
+
+
   
 }
