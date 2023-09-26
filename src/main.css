@@ -753,6 +753,22 @@ textarea{
 
 /* contact section ends here */
 
+/* footer section starts here */
+
+footer{
+  font-family: var(--font);
+  text-align: center;
+  padding: 3px;
+  font-size: 13px;
+  height: 60px;
+  background-color: rgba(255, 51, 153, .05);
+}
+footer p{
+  margin: 6px 0;
+}
+
+/* footer section  ends here */
+
 /* 
 
 .about .row .content .content-frame {
