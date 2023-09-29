@@ -1,6 +1,11 @@
 const Home = () => {
   return (
     <>
+
+<section>
+  <h2>hello george</h2>
+</section>
+
       <p className="heading">
         <span> About</span>
       </p>
