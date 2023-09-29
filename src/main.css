@@ -1,5 +1,5 @@
 :root {
-  --grey: rgb(44, 43, 43);
+  --grey: #000;
   --font: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -40,9 +40,9 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 1000;
   height:50px;
-  box-shadow: 0 .5rem 1rem rgba(0.0, 0, .1);
+  z-index: 1000;
+  box-sizing:border-box;
   background-color: var(--grey);
 }
 
@@ -91,6 +91,7 @@ input[type=checkbox] {
   cursor: pointer;
   border: .1rem solid rgba(0, 0, 0, .3);
   user-select: none;
+  background-color: white;
 }
 
 /* navbar css ends here */
@@ -102,11 +103,69 @@ section {
 
 /* header section for home page starts here */
 .wrapper {
-  height: 500px;
+  height: 632px;
   width: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
 
+.wrapper-button{
+  position: relative;
+  top: 100%;
+  right: 50%;
+  left: 50%;
+}
+
+/*arrows starts here */
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: white;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+/* arrows ends here */
 
 #stars {
   width: 1px;
@@ -688,7 +747,7 @@ section {
   padding: 1rem;
   margin: 2rem 0;
   background: rgba(255, 51, 153, .05);
-  margin-top: 5rem;
+  margin-top: 1.5rem;
 }
 
 .heading span {
@@ -1415,6 +1474,9 @@ footer p {
     font-size: 3rem;
   }
 
+  .wrapper{
+    height: 1090px;
+  }
   .content {
     margin: 2rem 0;
   }
