@@ -3,7 +3,7 @@ const Footer = () => {
     <>
       <footer>
         <p>Developer:George Mungai</p>
-        <a href="/">
+        <a href="#close">
         kariukigeorge511@gmail.com
         </a>
       </footer>
