@@ -734,6 +734,29 @@ section {
 }
 
 
+#title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+}
+
+#title span {
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 
 
 /* header section for home page ends here */
@@ -1479,6 +1502,9 @@ footer p {
   }
   .wrapper-button{
     top: 65%;
+  }
+  #title {
+    top: 30%;
   }
   .content {
     margin: 2rem 0;

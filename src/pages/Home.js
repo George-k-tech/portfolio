@@ -2,6 +2,11 @@ const Home = () => {
   return (
     <>
       <section class="wrapper">
+          <div id="title">
+           <p><span>Hello, I'm George Kariuki.</span></p>
+           <p><span>I'm a Fullstack developer.</span></p>
+
+          </div>
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
