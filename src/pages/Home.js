@@ -1,7 +1,18 @@
 const Home = () => {
   return (
     <>
-      <p className="heading">
+      <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <button className="wrapper-button"><a href="#About"><svg class="arrows">
+							<path class="a1" d="M0 0 L30 32 L60 0"></path>
+							<path class="a2" d="M0 20 L30 52 L60 20"></path>
+							<path class="a3" d="M0 40 L30 72 L60 40"></path>
+						</svg></a></button>
+      </section>
+
+      <p className="heading" id="About">
         <span> About</span>
       </p>
 
@@ -64,49 +75,47 @@ const Home = () => {
           <div className="content">
             <h3>My Stacks</h3>
 
-              <div className="content-left">
-
-                  <p>HTML</p>
-                  <div className="skill-container">
-                  <div class="skills html">90%</div>
-                  </div>
-
-                  <p>CSS</p>
-                  <div className="skill-container">
-                  <div class="skills css">80%</div>
-                  </div>
-
-                  <p>PHP</p>
-                  <div className="skill-container">
-                  <div class="skills php">75%</div>
-                  </div>
-
-                  <p>Javascript</p>
-                  <div className="skill-container">
-                  <div class="skills javascript">55%</div>
-                  </div>
-
-                  <p>Dart</p>
-                  <div className="skill-container">
-                  <div class="skills dart">50%</div>
-                  </div>
-
-                  <p>Laravel</p>
-                  <div className="skill-container">
-                  <div class="skills laravel">70%</div>
-                  </div>
-
-                  <p>React</p>
-                  <div className="skill-container">
-                  <div class="skills react">65%</div>
-                  </div>
-
-                  <p>Flutter</p>
-                  <div className="skill-container">
-                  <div class="skills flutter">55%</div>
-                  </div>
-
+            <div className="content-left">
+              <p>HTML</p>
+              <div className="skill-container">
+                <div class="skills html">90%</div>
               </div>
+
+              <p>CSS</p>
+              <div className="skill-container">
+                <div class="skills css">80%</div>
+              </div>
+
+              <p>PHP</p>
+              <div className="skill-container">
+                <div class="skills php">75%</div>
+              </div>
+
+              <p>Javascript</p>
+              <div className="skill-container">
+                <div class="skills javascript">55%</div>
+              </div>
+
+              <p>Dart</p>
+              <div className="skill-container">
+                <div class="skills dart">50%</div>
+              </div>
+
+              <p>Laravel</p>
+              <div className="skill-container">
+                <div class="skills laravel">70%</div>
+              </div>
+
+              <p>React</p>
+              <div className="skill-container">
+                <div class="skills react">65%</div>
+              </div>
+
+              <p>Flutter</p>
+              <div className="skill-container">
+                <div class="skills flutter">55%</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
