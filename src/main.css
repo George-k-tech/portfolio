@@ -1477,6 +1477,9 @@ footer p {
   .wrapper{
     height: 1090px;
   }
+  .wrapper-button{
+    top: 90%;
+  }
   .content {
     margin: 2rem 0;
   }
